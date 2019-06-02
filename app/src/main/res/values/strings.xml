@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MP3_player</string>
+    <string name="songName">Tytuł utworu</string>
+    <string name="Singer">Wykonawca</string>
+</resources>
