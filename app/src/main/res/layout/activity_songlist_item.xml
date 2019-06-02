@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/noteIcon"
         android:textColor="@color/colorGreen"
-        android:text="Tytul"
+        android:text="Nazwa utworu"
         android:textSize="20sp"
         android:id="@+id/songName"/>
     <TextView
