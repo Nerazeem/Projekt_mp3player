@@ -16,22 +16,23 @@
         android:textColor="@color/colorGreen"
         android:text="Nazwa utworu"
         android:textSize="20sp"
-        android:id="@+id/songName"/>
+        android:id="@+id/txtTytul"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/noteIcon"
-        android:layout_below="@+id/songName"
+        android:layout_below="@+id/txtTytul"
         android:textColor="@color/colorGreen"
         android:text="Wykonawca"
-        android:textSize="20sp"/>
+        android:textSize="20sp"
+        android:id="@+id/txtAutor"/>
     <ImageView
         android:id="@+id/iconStop"
         android:layout_width="55dp"
         android:layout_height="55dp"
         android:layout_alignParentRight="true"
         android:layout_centerInParent="true"
-        android:src="@drawable/iconStop"
+        android:src="@drawable/icon_stop"
         />
     <ImageView
         android:id="@+id/iconPlay"
@@ -39,7 +40,7 @@
         android:layout_height="55dp"
         android:layout_toLeftOf="@id/iconStop"
         android:layout_centerInParent="true"
-        android:src="@drawable/iconPlay"
+        android:src="@drawable/icon_play"
         />
 
 </RelativeLayout>
